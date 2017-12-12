@@ -15,7 +15,7 @@ def read(fname):
 setup(
     name="redsolutioncms.django-utilities",
     version=__import__('utilities').__version__,
-    description=read('DESCRIPTION'),
+    description="DESCRIPTION",
     license="GPLv3",
     keywords="django utilities",
 
@@ -41,7 +41,7 @@ setup(
     install_requires=[],
     include_package_data=True,
     zip_safe=False,
-    long_description=read('README'),
+    long_description="README",
     entry_points={
         'redsolutioncms': ['utilities = utilities.redsolution_setup', ],
     }
